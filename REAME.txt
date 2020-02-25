@@ -1,0 +1,10 @@
+1. 在root dir产生一个名为Makefile的文档
+2. 文档的记录是
+P=j
+OBJECTS=
+CFLAGS = -g -Wall -include allhead.h -std=gnu99 `pkg-config --cflags glib-2.0`
+LDLIBS=`pkg-config --libs glib-2.0`
+cc=gcc
+${P}:
+3. 非交互式地
+4. 目标程序被放在:\usr\bin
