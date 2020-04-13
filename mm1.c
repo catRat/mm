@@ -4,8 +4,8 @@ int main(void)
 	string const SS =
 		"P=j\n"
 		"OBJECTS=\n"
-		"CFLAGS = -g -Wall -O2 -std=gnu11 -include stdio.h \n"
-		"LDLIBS=\n"
+		"CFLAGS = -g -Wall -O2 -std=gnu11 -include allhead.h \n"
+		"LDLIBS=-lm\n"
 		"cc=gcc\n"
 		"${P}:";
 
